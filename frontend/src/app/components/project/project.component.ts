@@ -271,6 +271,7 @@ export class ProjectComponent implements OnInit {
         }
         this.locationsArr = locations2;
       }
+	  this.locationsPercentSumVal = this.locationsPercentSum();
     });
   }
 
